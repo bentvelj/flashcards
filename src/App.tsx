@@ -1,7 +1,14 @@
+import FlashCard from "./components/FlashCard";
+import FlashCardContainer from "./components/FlashCardContainer";
+import MainScreen from "./components/MainScreen";
 
 function App() {
   return (
-    <h1>Hello World</h1>
+    <MainScreen>
+      <FlashCardContainer>
+        <FlashCard>Hello WOrld</FlashCard>{" "}
+      </FlashCardContainer>
+    </MainScreen>
   );
 }
 
